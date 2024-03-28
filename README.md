@@ -1,28 +1,36 @@
-<div dir="rtl">
-<h1> مسار تطوير تطبيق جوال باستخدام React Native </h1>
-<p>الشيفرة المصدرية الخاصة بمسار تطوير تطبيق جوال باستخدام React Native ضمن دورة "تطوير التطبيقات باستخدام JavaScript" المقدمة من أكاديمية حسوب
+# Patient-Doctor Appointment App
 
-</p>
+## Introduction
+The Patient-Doctor Appointment App is a simple mobile application designed to connect patients with doctors.
 
-<div>
-<a href="https://academy.hsoub.com/learn/javascript-application-development/">دورة تطوير التطبيقات باستخدام JavaScript</a>
-</div>
+## Features
+- **Profile Customization**: Users can personalize their profiles, providing necessary information for appointment scheduling.
+- **Doctor Search**: Easily find doctors based on specialty, location, or other criteria.
+- **User Authentication**: Secure login and authentication mechanisms to ensure data privacy.
+- **Backend API**: Utilizes Express.js to handle server-side operations and interact with the PostgreSQL database.
 
-<h2> طريقة تشغيل الواجهات الخلفية </h2>
-<ul>
-  <li>نسخ المستودع <code>git clone </code></li>
-  <li>الانتقال إلى المجلد <code>cd server</code></li>
-  <li>تنزيل حزم npm من خلال الأمر <code>npm install</code></li>
-  <li>التعديل على معلومات الاتصال بقواعد البيانات في ملف <code>.env</code></li>
-  <li>تشغيل المشروع <code>npm run start</code></li>
-</ul>
+## Technologies Used
+- **Frontend**: Developed with React Native for cross-platform mobile compatibility.
+- **Backend**: Powered by Express.js for robust server-side functionalities.
+- **Database**: PostgreSQL utilized for efficient data storage and retrieval.
+- **API Communication**: RESTful API endpoints enable seamless communication between frontend and backend.
 
-<h2> طريقة تشغيل الواجهات الأمامية </h2>
-<ul>
-  <li>الانتقال إلى المجلد <code>cd client</code></li>
-  <li>تنزيل حزم npm من خلال الأمر <code>npm install</code></li>
-  <li>التعديل على معلومات الاتصال بخادم node.js في ملف <code>.env</code></li>
-  <li>تشغيل المشروع <code>npx expo start</code></li>
-</ul>
-</div>
-</div>
+## Getting Started
+1. **Backend Setup**:
+    - Clone the repository and navigate to the `server` directory.
+    - Install dependencies using `npm install`.
+    - Configure database connection information in the `.env` file.
+    - Start the backend server with `npm run start`.
+
+2. **Frontend Setup**:
+    - Navigate to the `client` directory.
+    - Install dependencies using `npm install`.
+    - Configure the Node.js server connection information in the `.env` file.
+    - Start the frontend development server with `npx expo start`.
+
+## Common Tasks
+- **Customizing Profile**: Users can edit their profiles, providing necessary details such as name, contact information, and medical history.
+- **Searching for Doctors**: Utilize the search feature to find doctors based on specialty, location, or name.
+
+## Help and Support
+For assistance or inquiries, please contact us at [zeffanine16@gmail.com](mailto:zeffanine16@gmail.com).
